@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Poppins:wght@100;200;300;400;500&family=Roboto+Serif:opsz@8..144&family=Roboto:wght@300&family=Ubuntu+Condensed&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.button {
+  padding: 27px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+  width: 6px;
+  background-color: #313131;
+  color: #d1d1d1;
+}
+
+.mx-auto {
+  margin: auto;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.row {
+  margin: 8px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.row input {
+  font-size: 21px;
+  margin: 0;
+  padding: 10px 9px;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 262px;
+  background-color: #000000;
+  color: #f6f6f6;
+}
+
+.row {
+  .button:nth-child(4) {
+    background-color: purple;
+    color: #f6f5f5;
+  }
+}
+
+.row1 .bg {
+  background-color: #a0a0a0;
+  color: #040404;
+}
